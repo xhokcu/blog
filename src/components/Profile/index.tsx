@@ -4,7 +4,7 @@ import profile from './me.png';
 function Profile() {
   return (
     <div className="flex flex-row items-center gap-6">
-      <img alt="profile" src={profile} width="100" />
+      <img alt="profilepic" src={profile} width="100" />
       <div className=" flex flex-col gap-2">
         <p className="text-3xl font-sans font-bold text-gray-200">
           Hi, I'm Helin.
