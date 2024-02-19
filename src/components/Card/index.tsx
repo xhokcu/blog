@@ -1,5 +1,4 @@
 import React from 'react';
-import dot from './dot.png';
 export interface ICardProps {
   date: string;
   title: string;
@@ -8,15 +7,19 @@ export interface ICardProps {
 
 function Card({ date, title, company }: ICardProps) {
   return (
-    <div className="flex flex-row rounded-lg justify-between py-4">
+    <div className="border-bottom border-b-2 border-b-gray-800 flex flex-row justify-between py-4">
       <div className=" flex-col gap-4">
-        <h2 className=" font-sans text-md font-semibold text-gray-400">
+        <h2 className=" font-sans text-md sm:text-lg font-semibold text-gray-400">
           {title}
         </h2>
-        <h2 className="font-sans text-sm text-gray-400">{company}</h2>
+        <h2 className="font-sans text-sm sm:text-md text-gray-400">
+          {company}
+        </h2>
       </div>
       <div className="text-sm">
-        <h2 className=" font-sans italic text-gray-200 text-right">{date}</h2>
+        <h2 className=" font-sans text-sm sm:text-md italic text-gray-200 text-right">
+          {date}
+        </h2>
       </div>
     </div>
   );
