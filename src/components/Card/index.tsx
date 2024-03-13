@@ -16,11 +16,9 @@ function Card({ date, title, company }: ICardProps) {
           {company}
         </h2>
       </div>
-      <div className="text-sm">
-        <h2 className=" font-sans text-sm sm:text-md italic text-gray-200 text-right">
-          {date}
-        </h2>
-      </div>
+      <h2 className=" font-sans text-sm sm:text-md  text-gray-400 text-right">
+        {date}
+      </h2>
     </div>
   );
 }

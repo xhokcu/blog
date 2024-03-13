@@ -12,7 +12,7 @@ function Profile() {
           Hi, I'm Helin.
         </p>
         <p className="text-lg  lg:text-2xl font-sans text-gray-400 font-bold">
-          A developer who dabbles in design on the side.
+          A developer who's an enthusiast for design.
         </p>
       </div>
     </div>
